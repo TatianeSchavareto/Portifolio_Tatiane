@@ -1,0 +1,98 @@
+    <!-- Portifolio Tatiane Schavareto. -->
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="styles.css">  <!-- codigo css. -->
+</head>
+<body>
+    <header><img src="logo.html.png" alt="Minha marca" title="logo" width="30%"><!-- Aqui esta o logo que desenvolvi. -->
+        <h1>Portifólio Tatiane</h1>
+        <nav>
+            <ul><!-- lista de opções. -->
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Aqui fala um pouco sobre mim. -->
+    <section id="sobre"><img src="imagem.html.jpg" alt="Sou eu" title="Essa sou eu" width="30%"> <!-- Foto minha. -->
+        <h2>Sobre mim</h2>
+        <p>Olá, um prazer !
+            <br>Me chamo Tatiane Schavareto dos Santos, tenho 24 anos, moro no estado de São Paulo no municipio de Carapicuiba. Sou casada, e não tenho filhos, faço um curso tecnico de Analista de Desenvolvimento e Sistema. Sou envagelica e vou a igreja três vezes por semana. Faço academia todos os dias para manter a sáude em dia. Sou vegetariana a 12 anos, e tento ter uma vida mais saúdavel possivel.Amo natureza, e viajo duas vezes no ano. Participar de de eventos em familia é o que mais gosto! Atualmente estou entrado para o mundo das redes sociais onde posto varios conteudos.</p>
+    </section>
+<br
+
+
+>
+<!-- Texto sobre minha formação. -->
+    <section id="formacao">
+        <h2>Formação</h2>
+        <p>Meu ensino médio finalizei em 2016,na escola estadual Mary Mallet Cyrino. E nesse mesmo ano inicie meu primeiro curso tecnico em multimída, onde desenvolvi varios trabalhos e me apaxonei pela área de tecnologia. Conhecimento em Excel desevolvi atráves de cursos preparatorios. Hoje curso Analista de Desenvolvimento e Sistemas na Uninter e estudo inglês por aulas online e aplicativos. </p>
+
+
+
+    </section>
+    <!-- Meu Portifolio. -->
+    <section id="portfolio">
+        <h2>Portifólio</h2>
+        <p>Aqui esta um pouquinho do que desenvolvi até agora, foram inumeros trabalhos, da parte back end e front end.</p>
+
+<!-- Um carrosel que o usuaria passa para o lado, para mostar os trabalhos já produzidos, com titulos nas imagem em png. -->
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="Untitled.html.png" alt="Imagem 1" title="pagina inicial de um app" width="30%">
+            </div>
+            <div class="carousel-slide">
+                <img src="Dca.html.png" alt="Imagem 2" title="Logo de um estudio" width="5%">
+            </div>
+            <div class="carousel-slide">
+                <img src="viver.html.png" alt="Imagem 3" title="Logo de uma agencia" width="5%">
+            </div>
+            <div class="carousel-slide">
+                <img src="exercicios.html.png" alt="Imagem 4" title="parte visual de um programa de cadastro" width="5%">
+            </div>
+            <div class="carousel-slide">
+                <img src="codigo.html.png" alt="Imagem 5" title="codigo de cadastro de usuarios" width="5%">
+            </div>
+            <div class="carousel-slide">
+                <img src="lanchonete.html.png" alt="Imagem 6"title="codigo de pedidos para uma lanchonete" width="5%">
+            </div>
+            <div class="carousel-slide">
+                <img src="fluxograma.htm.png" alt="Imagem 7" title="diagrama de caso de uso" width="5%">
+            </div>
+            <div class="carousel-slide">
+                <img src="fluxograma1.html.png" alt="Imagem 8" title="diagrama de classes" width="5%">
+            </div>
+                <!--botões para avançar ou retornar. -->
+            <button class="prev-button">Anterior</button>
+            <button class="next-button">Próxima</button>
+        </div>
+        <script src="script.js"></script>    <!-- criando o codigo em java, para o movimento do carrosel. -->
+
+    </section>
+    <!-- Contato comigo com um formulario simples. -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entrar em contato comigo:</p>
+        <form action="processa_formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
